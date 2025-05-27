@@ -1,0 +1,20 @@
+# ctxkey
+
+This package provides type save context key
+
+
+## Example usage:
+
+```go
+// Create a context key.
+var timeoutCtx = ctxkey.New("timeout", 5*time.Second)
+
+// Store a context value.
+ctx = timeoutCtx.WithValue(ctx, 10*time.Second)
+
+// Load a context value.
+timeout := timeoutCtx.Value(ctx)
+... // use timeout of type time.Duration
+```
+
+This is inspired by https://go.dev/issue/49189.
