@@ -1,7 +1,14 @@
 # ctxkey
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/jackielii/ctxkey.svg)](https://pkg.go.dev/github.com/jackielii/ctxkey)
+
 This package provides type save context key
 
+## Install
+
+```bash
+go get github.com/jackielii/ctxkey
+```
 
 ## Example usage:
 
