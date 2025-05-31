@@ -2,7 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/jackielii/ctxkey.svg)](https://pkg.go.dev/github.com/jackielii/ctxkey)
 
-This package provides type save context key
+This package provides type safe context key. Forked from [tailscale.com/util/ctxkey](https://pkg.go.dev/tailscale.com/util/ctxkey)
 
 ## Install
 
